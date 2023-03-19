@@ -1,12 +1,15 @@
 #include <stdio.h>
 /**
- * main - single digits of base 10
+ * main - all combination of single digits
  * Return: Always 0
  */
 int main(void)
 {
 	int x;
+	int y = , ;
 		for (x = 0; x < 10; x++)
-			printf("%i", x);
+			putchar(x);
+			putchar(y);
+		putchar('\n');
 		return (0);
 }
