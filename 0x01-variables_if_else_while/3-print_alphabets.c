@@ -12,7 +12,7 @@ int main(void)
 			char small = tolower(x);
 				putchar(small);
 				putchar(x);
-				putchar(\n);
+				putchar('\n');
 		}
 	return (0);
 }
