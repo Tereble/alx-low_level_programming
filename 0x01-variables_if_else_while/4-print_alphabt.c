@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * main - print alphabet a to z without e and q
- * Retun: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
