@@ -11,13 +11,13 @@ int main(void)
 		{
 			for (y = x + 1; y <= 99; y++)
 			{
-				putchar('0' + (x / 10));
-				putchar('0' + x);
+				putchar((x / 10) + '0');
+				putchar((x % 10) + '0');
 				putchar(' ');
-				putchar('0' + (y / 10));
-				putchar('0' + y);
+				putchar((y / 10) + '0');
+				putchar((y % 10) + '0');
 				if (x == 98 && y == 99)
-					continue;
+				continue;
 				putchar(',');
 				putchar(' ');
 			}
