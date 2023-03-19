@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry
+ * main - lower and uppercase
  * Return: Always 0
  */
 int main(void)
 {
 	int x;
 		for (x = 'A'; x <= 'Z'; x++)
-		{
-			char small = tolower(x);
-			char big = toupper(x);
-				putchar(small);
-				putchar(big);
-		}
+			putchar(small);
+		for (x = 'A'; x <= 'Z'; x++)
+			putchar(x);
 		putchar('\n');
 	return (0);
 }

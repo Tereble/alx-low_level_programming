@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - lowercase in reverse order
+ * main - all hexadecimals
  * Return: Always 0
  */
 int main(void)
 {
 	char x;
-		for (x = 'z'; x >= 'a'; x--)
+	int y;
+		for (y = 0; y < 10; y++)
+			putchar('0' + y);
+		for (x = 'a'; x < 'f'; x++)
 			putchar(x);
 		putchar('\n');
 		return (0);
