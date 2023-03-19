@@ -6,10 +6,10 @@
 int main(void)
 {
 	int x;
-	int y = , ;
 		for (x = 0; x < 10; x++)
-			putchar(x);
-			putchar(y);
+			putchar('0' + x);
+			putchar(',');
+			putchar(' ');
 		putchar('\n');
 		return (0);
 }
