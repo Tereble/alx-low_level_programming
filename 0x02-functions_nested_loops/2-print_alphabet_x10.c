@@ -9,10 +9,11 @@ void print_alphabet_x10(void)
 		while (x < 10)
 		{
 			y = 'a';
-				while (y <= 'z'; y++)
-				{
-					putchar(y);
+				while (y <= 'z')
+				{77
+					_putchar(y);
+					y++;
 				}
-			putchar('\n');
+			_putchar('\n');
 		}
 }
