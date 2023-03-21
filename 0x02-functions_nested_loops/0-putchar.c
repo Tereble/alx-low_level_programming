@@ -1,11 +1,18 @@
 #include "main.h"
 /**
- * main - program to print _putchar
+ * main - print putchar
  * Return: Always 0
  */
 int main(void)
 {
-	char p = "_putchar";
-		puts(p);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 	return (0);
 }
