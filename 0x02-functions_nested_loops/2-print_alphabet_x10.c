@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 		{
 			y = 'a';
 				while (y <= 'z')
-				{77
+				{
 					_putchar(y);
 					y++;
 				}
