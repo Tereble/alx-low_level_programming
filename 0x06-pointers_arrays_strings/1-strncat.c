@@ -17,11 +17,23 @@ char *_strncat(char *dest, char *src, int n)
 			z++;
 		}
 		y = 0;
-		while (src[y] < n)
+		if (src[y] >= src[n])
 		{
-			x[z] = src[y];
-			y++;
-			z++;
+			while (src[y] <= src[n])
+			{
+				x[z] = src[y];
+				y++;
+				z++;
+			}
+		}
+		else
+		{
+			while (src[y] != '\0')
+			{
+				x[z] = src[y];
+				y++;
+				z++;
+			}
 		}
 	x[z] = '\0';
 	dest = x;
