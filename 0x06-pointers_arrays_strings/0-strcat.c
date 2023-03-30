@@ -7,16 +7,15 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char x[];
+	char x[98];
 	int y = 0, z = 0;
-	char *p;
 		while (dest[y] != '\0')
 		{
 			x[z] = dest[y];
 			y++;
 			z++;
 		}
-		y = 0
+		y = 0;
 		while (src[y] != '\0')
 		{
 			x[z] = src[y];
@@ -24,6 +23,6 @@ char *_strcat(char *dest, char *src)
 			z++;
 		}
 		x[z] = '0';
-		p = &x;
-		return (p);
+	dest = x;
+	return (dest);
 }
