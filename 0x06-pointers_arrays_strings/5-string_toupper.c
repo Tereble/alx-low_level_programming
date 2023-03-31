@@ -5,7 +5,7 @@
  */
 char *string_toupper(char *x)
 {
-	int y;
+	int y = 0;
 		while (x[y] != '\0')
 		{
 			if (x[y] >= 'a' && x[y] <= 'z')
